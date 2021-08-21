@@ -1,5 +1,5 @@
 schemas = [
-  'org.therepoclub.instamenu.preferences.gschema.xml',
+  'org.therepoclub.repomenu.preferences.gschema.xml',
 ]
 
 conf = configuration_data()
@@ -24,6 +24,6 @@ endforeach
 install_data(generated_schemas, install_dir: schemasdir)
 
 install_data(
-  'instamenu-schemas.convert',
+  'repomenu-schemas.convert',
   install_dir: join_paths(datadir, 'GConf', 'gsettings'),
 )

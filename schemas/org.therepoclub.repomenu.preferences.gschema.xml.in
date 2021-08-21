@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema path="/org/therepoclub/repomenu/preferences/" id="org.therepoclub.repomenu.preferences">
+    <key type="s" name="terminal">
+      <default>'alacritty'</default>
+      <summary>Terminal for repomenu</summary>
+      <description>Terminal for repomenu</description>
+    </key>
+    <key type="s" name="webbrowser">
+      <default>'vivaldi-stable'</default>
+      <summary>Web Browser for repomenu</summary>
+      <description>Web Browser for repomenu</description>
+    </key>
+    <key type="s" name="filemanager">
+      <default>'nemo'</default>
+      <summary>File Manager for repomenu</summary>
+      <description>File Manager for repomenu</description>
+    </key>
+    <key type="s" name="mailreader">
+      <default>'thunderbird'</default>
+      <summary>Mail Reader for repomenu</summary>
+      <description>Mail Reader for repomenu</description>
+    </key>
+    <key type="s" name="texteditor">
+      <default>'nvim-qt'</default>
+      <summary>Text Editor for repomenu</summary>
+      <description>Text Editor for repomenu</description>
+    </key>
+    <key type="s" name="hypervisor">
+      <default>'virt-manager'</default>
+      <summary>Hypervisor for repomenu</summary>
+      <description>Hypervisor for repomenu</description>
+    </key>
+    <key type="s" name="gitbrowser">
+      <default>'lazygit'</default>
+      <summary>Git Browser for repomenu</summary>
+      <description>Git Browser for repomenu</description>
+    </key>
+  </schema>
+</schemalist>

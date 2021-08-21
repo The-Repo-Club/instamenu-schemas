@@ -1,6 +1,6 @@
 prefix=@prefix@
 
-Name: instamenu-schemas
+Name: repomenu-schemas
 Description: Shared GSettings schemas for the desktop, including helper headers
 Version: @VERSION@
-Cflags: -I@includedir@/instamenu-schemas
+Cflags: -I@includedir@/repomenu-schemas

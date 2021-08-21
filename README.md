@@ -1,3 +1,3 @@
 <h1 align="center">
-  InstaMenu Extras
+  RepoMenu Schemas
 </h1>

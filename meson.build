@@ -1,5 +1,5 @@
 project(
-  'instamenu-schemas', 'c',
+  'repomenu-schemas', 'c',
   version: '3.38.0',
   default_options: [
     'warning_level=2'
@@ -36,10 +36,10 @@ conf.set('VERSION', meson.project_version())
 conf.set('includedir', includedir)
 
 pkg = configure_file(configuration: conf,
-                     input: 'instamenu-schemas.pc.in',
+                     input: 'repomenu-schemas.pc.in',
                      install: true,
                      install_dir: join_paths(datadir, 'pkgconfig'),
-                     output: 'instamenu-schemas.pc')
+                     output: 'repomenu-schemas.pc')
 
 glib_mkenums = find_program('glib-mkenums')
 
